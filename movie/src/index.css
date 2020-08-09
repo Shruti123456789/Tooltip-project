@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App
+{
+  margin:0;
+}
+/* styling outer container */
+.container
+{
+  margin:auto;
+  position:absolute;
+  top:25%;
+  height:50%;
+  width:80%;
+  left:10%;
+  right:10%;
+  bottom:25%;
+  border-radius:100px;
+   background-color:cyan;
+}
+/* styling deopdown menu */
+.optionSelection
+{
+  top:10%;
+  left:35%;
+  position:absolute;
+}
+span
+{
+ font-family: 'Times New Roman', Times, serif;
+ font-style:italic;
+ font-weight: bold;
+ font-size: larger;
+ margin-right: 20px;
+ color:black;
+}
+#Positions{
+  width: 100px;
+  border-radius:10px;
+  height:20px;
+}
+/*Styling Button*/
+button{
+  left:40%;
+  top:46%;
+  position:absolute;
+  height:50px;
+  width:200px;
+  border-radius:30px;
+  padding:10px;
+  background-color: white;
+  font-size: larger;
+  font-weight:lighter;
+}
+/* Styling Tooltip */
+#text
+{
+  left:40%;
+  top:55%;
+  position:absolute;
+  height:30px;
+  width:100px;
+  padding:10px;
+  border-radius:10px;
+  font-style:italic;
+  background-color: white;
+  color:black;
+  border:5px solid pink;
+
+ 
+}
